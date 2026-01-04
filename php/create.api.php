@@ -1,8 +1,9 @@
 <?php
-require_once("./data.php");
+require_once("./asia.php");
+
 function saveUserArrayToJson($userId, $dataArray) {
     // 1. Define the folder name
-    $directory = 'data';
+    $directory = '../data';
 
     // 2. Check if the folder exists, if not, create it
     if (!is_dir($directory)) {
@@ -14,7 +15,7 @@ function saveUserArrayToJson($userId, $dataArray) {
     $timestamp = date("dmY_His");
 
     // 4. Construct the filename using the userId and timestamp
-    $fileName = "user_data_{$userId}_{$timestamp}.json";
+    $fileName = "Asia_Countries_States.json";
     $filePath = $directory . '/' . $fileName;
 
     // 5. Convert the multi-dimensional array to a JSON string
