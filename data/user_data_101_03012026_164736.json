@@ -1,0 +1,113 @@
+{
+    "Asia": {
+        "country": {
+            "0": "Afghanistan",
+            "1": "Armenia",
+            "2": "Azerbaijan",
+            "3": "Bahrain",
+            "4": "Bangladesh",
+            "5": "Bhutan",
+            "6": "Brunei",
+            "7": "Cambodia",
+            "8": "China",
+            "9": "Cyprus",
+            "10": "Egypt",
+            "11": "Georgia",
+            "india": {
+                "state": {
+                    "0": "Andhra Pradesh",
+                    "1": "Arunachal Pradesh",
+                    "2": "Assam",
+                    "3": "Bihar",
+                    "4": "Chhattisgarh",
+                    "5": "Goa",
+                    "6": "Gujarat",
+                    "7": "Haryana",
+                    "8": "Himachal Pradesh",
+                    "9": "Jharkhand",
+                    "10": "Karnataka",
+                    "11": "Kerala",
+                    "12": "Madhya Pradesh",
+                    "13": "Maharashtra",
+                    "14": "Manipur",
+                    "15": "Meghalaya",
+                    "16": "Mizoram",
+                    "17": "Nagaland",
+                    "odisha": {
+                        "district": [
+                            "Bargarh",
+                            "Anugul"
+                        ]
+                    },
+                    "Punjab": {
+                        "district": [
+                            "hisar"
+                        ]
+                    },
+                    "18": "Rajasthan",
+                    "19": "Sikkim",
+                    "20": "Tamil Nadu",
+                    "21": "Telangana",
+                    "22": "Tripura",
+                    "23": "Uttar Pradesh",
+                    "24": "Uttarakhand",
+                    "25": "West Bengal",
+                    "Union Territories": [
+                        "Andaman and Nicobar Islands",
+                        "Chandigarh",
+                        "Dadra and Nagar Haveli and Daman and Diu",
+                        "Delhi",
+                        "Jammu and Kashmir",
+                        "Ladakh",
+                        "Lakshadweep",
+                        "Puducherry"
+                    ]
+                }
+            },
+            "12": "Indonesia",
+            "13": "Iran",
+            "14": "Iraq",
+            "15": "Israel",
+            "16": "Japan",
+            "17": "Jordan",
+            "18": "Kazakhstan",
+            "19": "Kuwait",
+            "20": "Kyrgyzstan",
+            "21": "Laos",
+            "22": "Lebanon",
+            "23": "Malaysia",
+            "24": "Maldives",
+            "25": "Mongolia",
+            "26": "Myanmar",
+            "27": "Nepal",
+            "28": "North Korea",
+            "29": "Oman",
+            "Pakistan": {
+                "state": {
+                    "Boluchistan": {
+                        "district": [
+                            "karachi"
+                        ]
+                    }
+                }
+            },
+            "30": "Philippines",
+            "31": "Qatar",
+            "32": "Russia",
+            "33": "Saudi Arabia",
+            "34": "Singapore",
+            "35": "South Korea",
+            "36": "Sri Lanka",
+            "37": "Syria",
+            "38": "Tajikistan",
+            "39": "Thailand",
+            "40": "Timor-Leste",
+            "41": "Turkey",
+            "42": "Turkmenistan",
+            "43": "United Arab Emirates",
+            "44": "Uzbekistan",
+            "45": "Vietnam",
+            "46": "Yemen"
+        }
+    }
+}

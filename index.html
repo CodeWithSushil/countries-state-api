@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Json Read</h1>
+        <select>
+        <option>Asia</option>
+        <option>India</option>
+        </select>
+        <script>
+            // 1. Fetch the file
+            fetch("./data/user_data_101_03012026_223836.json")
+                .then(response => {
+                    // 2. Check if the file was found
+                    if (!response.ok) {
+                        throw new Error("HTTP error " + response.status);
+                    }
+                    return response.json(); // 3. Parse JSON automatically
+                })
+                .then(data => {
+                    // 4. Use the data
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error("Could not fetch JSON:", error);
+                });
+        </script>
+    </body>
+</html>
