@@ -1,5 +1,5 @@
 <?php
-require_once("./asia.php");
+require_once("./india.php");
 
 function saveUserArrayToJson($userId, $dataArray) {
     // 1. Define the folder name
@@ -15,7 +15,7 @@ function saveUserArrayToJson($userId, $dataArray) {
     $timestamp = date("dmY_His");
 
     // 4. Construct the filename using the userId and timestamp
-    $fileName = "Asia_Countries_States.json";
+    $fileName = "india.json";
     $filePath = $directory . '/' . $fileName;
 
     // 5. Convert the multi-dimensional array to a JSON string
@@ -36,5 +36,5 @@ $userId = "101";
 
 // A multi-dimensional array (Matrix style)
 
-saveUserArrayToJson($userId, $myArray);
+saveUserArrayToJson($userId, $india);
 ?>
